@@ -1,0 +1,13 @@
+{
+  "name": "wokku-tanstack-start-starter",
+  "description": "Bare-bones TanStack Start starter for one-click Wokku deploys",
+  "buildpacks": [
+    { "url": "heroku/nodejs" }
+  ],
+  "env": {
+    "NODE_ENV": {
+      "value": "production",
+      "description": "Node environment"
+    }
+  }
+}
